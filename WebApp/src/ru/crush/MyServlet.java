@@ -17,8 +17,7 @@ public class MyServlet extends HttpServlet {
 	
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// System.out.println("Обработка запроса");
-
+		
 		// PrintWriter out = response.getWriter();
 		// out.println(date.toString());
 		Random rand = new Random();

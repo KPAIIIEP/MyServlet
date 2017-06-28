@@ -24,6 +24,8 @@ public class MyServlet extends HttpServlet {
 		int size = rand.nextInt(10);
 		Date date = new Date();
 		
+		System.out.println("size");
+		
 		String color = Integer.toString(rand.nextInt(255)) + ", " + Integer.toString(rand.nextInt(255)) + ", " + Integer.toString(rand.nextInt(255));
 		
 		request.setAttribute("color", color);
